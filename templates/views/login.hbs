@@ -1,0 +1,32 @@
+{{>header}}
+{{>navbar}}
+
+ <h1 class="text-center  p-3 " >
+      <span class="text-success section-title-underline-login"> Login here</span>
+    </h1>
+
+    <!-- login  form Starts here  -->
+    <form action="/login" method="GET">
+    <div class="container mb-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-5 col-md-8 col-sm-8 col-12 bg-login p-5 rounded-3 shadow">
+        
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fs-5">Email address</label>
+              <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label fs-5">Password</label>
+              <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+            </div>
+           
+            <button type="submit" class="btn login-btn fs-6 p-1">Log In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+{{>footer}}

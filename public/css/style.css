@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background: rgb(195, 34, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 137, 1) 0%,
+    rgba(45, 231, 253, 1) 100%
+  );
+
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-color {
+  background: #f3a4f5;
+}
+#intro {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+.section-title-underline span {
+  display: inline-block;
+  border-bottom: 4px solid #51be78;
+}
+.courseimg_radius {
+  border-radius: 2rem;
+}
+.page-footer {
+  background-color: #fff;
+}
+
+#divider {
+  background-color: #0ae288;
+  height: 2px;
+  width: 20%;
+  border: 2px solid #0ae288;
+}
+
+.cimg {
+  height: 500px;
+}
+
+.separate {
+  background: aqua;
+  border: 1px solid aqua;
+  height: 30px;
+}
+
+.bg-login {
+  background: rgb(195, 34, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 137, 1) 0%,
+    rgba(45, 231, 253, 1) 100%
+  );
+}
+
+.login-text {
+  color: rgba(45, 231, 253, 1);
+}
+.section-title-underline-login {
+  display: inline-block;
+  border-bottom: 4px solid rgba(195, 34, 137, 1);
+}
+
+.login-btn {
+  background-color: aqua;
+}
